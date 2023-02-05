@@ -1,26 +1,21 @@
-Python - Test-driven development
-image
+# Test-driven development
 
-Test Driven Development (TDD) is a great approach for software development. TDD is nothing but the development of tests before adding a feature in code. This approach is based on the principle that we should write small codes rather than writing long codes
+Project done during **Full Stack Software Engineering** at **ALX**. It aims to learn about docstrings to create and implement tests in **Python**.
 
-Test Driven Development (TDD) Approach
-As the name suggests, we should first add the test before adding the functionality in our code. Now our target is to make the test pass by adding new code to our program. So we refactor our code to pass the written test. This uses the following process -
+## Technologies
+* Python Scripts are written with Python 3
+* C files are compiled using `gcc`
+* Tested on Ubuntu 20.04 LTS
 
-Write a failing unit test
-Make the unit test pass
-Repeat
-Test Driven Development Process Cycle
-First, add tests for the functionality.
-Next, we run our test to fail.
-Next, we write code according to the error we received.
-Then we run the tests again to see if the test fails or passes.
-Then refactor the code and follow the process again.
-General Objective
-Why Python programming is awesome
-What’s an interactive test
-Why tests are important
-How to write Docstrings to create tests
-How to write documentation for each module and function
-What are the basic option flags to create tests
-How to find edge cases
-
+## Files
+| Filename | Description |
+| -------- | ----------- |
+| `0-add_integer.py` | Function that adds two integers (Doctest on `tests/0-add_integer.txt`) |
+| `2-matrix_divided.py` | Function that divides all elemtns of a matrix (Doctest on `tests/2-matrix_divided.txt`) |
+| `3-say_my_name.py` | Function that prints `My name is <first name> <last name>` (Doctest on `tests/3-say_my_name.txt`) |
+| `4-print_square.py` | Function that prints a square with the character `#` (Doctest on `tests/4-print_sqaure.txt`) |
+| `5-text_indentation.py` | Function that prints a text with 2 new lines after each of these `.`, `?` and `:` (Doctest on `tests/5-text_indentation.txt`) |
+| `tests/6-max_integer_test.py` | Unittests for the function `def max_integer(list=[])` |
+| `100-matrix_mul.py` | Function that multiplies 2 matrices (Doctest on `tests/100-matrix_mul.txt`) |
+| `101-lazy_matrix_mul.py` | Function that multiplies 2 matrices by using the module **NumPy** (Doctest on `tests/101-lazy_matrix_mul.txt`) |
+| `102-python.c` | Function that prints Python strings |
